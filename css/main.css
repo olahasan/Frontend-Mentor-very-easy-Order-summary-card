@@ -1,0 +1,121 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+.box {
+    background-color: hsl(225, 100%, 98%);
+    width: 250px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box .image img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.box .container {
+    padding: 0 20px;
+}
+
+.box .container .text-1 {
+    margin-top: 15px;
+}
+
+.box .container .text-1 .one {
+    font-size: 17px;
+}
+
+.box .container .text-1 p {
+    font-size: 11px;
+    padding: 10px;
+}
+
+.box .plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    background-color: hsl(225deg 100% 94% / 38%);
+    border-radius: 10px;
+    padding: 7px 5px;
+    margin: 10px 0;
+}
+
+.box .plan img {
+    width: 22px;
+    margin-right: -35px;
+}
+.box .plan .link a{
+cursor: pointer;
+}
+.box p.one {
+    background-color: hsl(245, 75%, 52%);
+    font-size: 11px;
+    padding: 5px 0;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    box-shadow: 1px 12px 10px 0 hsl(225deg 100% 94%);
+    cursor: pointer;
+}
+
+.box p.two {
+    padding: 0 0 15px 0;
+    font-size: 10px;
+    cursor: pointer;
+}
+.attribution {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 130px;
+    font-size: 10px;
+}
+.attribution a:last-of-type{
+        cursor: pointer;
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+}
+
+@media(max-width:767px) {
+    .box {
+        width: 359px;
+        margin: 225px auto;
+    }
+
+    .box .container .text-1 .one {
+        font-size: 25px;
+    }
+
+    .box .container .text-1 p {
+        font-size: 16px;
+    }
+
+    .box .plan {
+        padding: 11px 5px;
+    }
+
+    .box p.one {
+        font-size: 11px;
+        padding: 10px 0;
+        margin-bottom: 24px;
+    }
+    .attribution {
+        display: none;
+    }
+
+}
