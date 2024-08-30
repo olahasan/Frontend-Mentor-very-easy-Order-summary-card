@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="css/main.css" />
 
-  <title>Frontend Mentor | Order summary card</title>
-  <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-
-  <div class="box">
-
-    <div class="image">
-      <img src="images/illustration-hero.svg" alt="pic" />
-    </div>
-    <div class="container">
-      <div class="text-1">
-        <h2 class="one">Order Summary</h2>
-        <p> You can now listen to millions of songs, audiobooks, and podcasts on any
-          device anywhere you like!</p>
+  <body>
+    <div class="box">
+      <div class="image">
+        <img loading="lazy" src="images/illustration-hero.svg" alt="pic" />
       </div>
-
-      <div class="plan">
-
-        <img src="images/icon-music.svg" alt="pic" />
-        <div class="text-2">
-          <h2 class="two">Annual Plan</h2>
-          <span> $59.99/year</span>
+      <div class="container">
+        <div class="text-1">
+          <h2 class="one">Order Summary</h2>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
         </div>
 
-        <div class="link">
-          <a href="#"> Change</a>
+        <div class="plan">
+          <img loading="lazy" src="images/icon-music.svg" alt="pic" />
+          <div class="text-2">
+            <h2 class="two">Annual Plan</h2>
+            <span> $59.99/year</span>
+          </div>
+
+          <div class="link">
+            <a href="#"> Change</a>
+          </div>
         </div>
+
+        <button class="one">Proceed to Payment</button>
+        <button class="two">Cancel Order</button>
       </div>
-
-      <p class="one"> Proceed to Payment</p>
-      <p class="two"> Cancel Order</p>
-
     </div>
 
-  </div>
-
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">&lt;OLA&gt;</a>.
-  </div>
-</body>
-
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">&lt;OLA/&gt;</a>.
+    </div>
+  </body>
 </html>
